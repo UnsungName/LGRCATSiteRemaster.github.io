@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+<head>
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
+    <title>ORAR</title>
+    <link rel="stylesheet" href="OrarStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+</head>
+<body>
+    <section>
+
+        <nav class="phone">
+            <div class="logo-phone">
+                <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            </div>
+            <div id="slidebar">
+                <div class="toggle-btn" onclick="show()">
+                    <input type="checkbox" id="checkbox" onclick="show()">
+                    <label for="checkbox" class="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                    </label>
+                </div>
+                <ul class="mobile-menu">
+                    <li class="mobile-items"><a HREF="index.html">ACASĂ</a></li>
+                    <li class="mobile-items"><a HREF="Nou.html">ANUNȚURI</a></li>
+                    <li class="mobile-items"><a href="Legaturi.html">LEGĂTURI</a></li>
+                    <li class="mobile-items"><a href="Orar.html">ORAR</a></li>
+                    <li class="mobile-items"><a HREF="ECDL.html">ECDL</a></li>
+                    <li class="mobile-items"><a HREF="Contact.html">CONTACT</a></li>
+                    
+                </ul>
+    
+            </div>
+        </nav>
+
+        <section class="header">
+            <nav class="pc">
+                <a href="index.html"><img src="images/logo.png" class="logo"></a>
+                <ul class="nav-items">
+        
+                    <li><a HREF="index.html">ACASĂ</a></li>
+                    <li><a href="Nou.html">ANUNȚURI</a></li>
+                    <li><a href="Legaturi.html">LEGĂTURI</a></li>
+                    <li><a href="Orar.html">ORAR</a></li>
+                    <li><a HREF="ECDL.html">ECDL</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                <label class="switch">
+                    <input type="checkbox" id="switch" >
+                    <span class="slider"></span>
+                </label>
+                <a class="toni"></a>
+            </nav>
+        
+           
+            <div class="txtBox">
+        
+                <h1>Orar</h1>
+        
+        
+            </div>
+        
+        </section>
+        <section class="orarBody">
+            <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=150&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FBucharest&amp;showCalendars=0&amp;showPrint=0&amp;mode=WEEK&amp;src=bGdyY2F0LnJvX2J0YXJxaGw3dXRzaTU4Z3RtNzhwbGM1dXRzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23B39DDB" style="border:solid 1px #777" width="80%" height="450px" frameborder="0" scrolling="no"></iframe>
+        
+            <!---SELECTOR--->
+            <script language="javascript" type="text/javascript">
+                function MM_jumpMenu(targ,selObj,restore){ 
+                //  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+                var cadrul = document.getElementById("I1");
+                cadrul.style.display="block";
+                cadrul.src = selObj.options[selObj.selectedIndex].value;
+                
+                  if (restore) selObj.selectedIndex=0;
+                }
+                </script>
+        
+                
+                <div class="selectors">
+                    <form name="Clasă">
+                        
+                        <select name="Selectează" lang="ro" onchange="MM_jumpMenu('I1',this,0)" class="auto-style3"  >
+                         <option value="">Selectează clasa</option>
+                   <option value="PA.pdf">Clasa Pregătitoare A</option>
+                   <option value="PB.pdf">Clasa Pregătitoare B</option>
+                   <option value="PC.pdf">Clasa Pregătitoare C</option>
+                   <option value="1A.pdf">Clasa I A</option>
+                   <option value="1B.pdf">Clasa I B</option>
+                   <option value="1C.pdf">Clasa I C</option>
+                   <option value="2A.pdf">Clasa a II-a A</option>
+                   <option value="2B.pdf">Clasa a II-a B</option>
+                   <option value="2C.pdf">Clasa a II-a C</option>
+                   <option value="3A.pdf">Clasa a III-a A</option>
+                   <option value="3B.pdf">Clasa a III-a B</option>
+                   <option value="4A.pdf">Clasa a IV-a A</option>
+                   <option value="4B.pdf">Clasa a IV-a B</option>
+                   <option value="5A.pdf">Clasa a V-a A</option>
+                   <option value="5B.pdf">Clasa a V-a B</option>
+                   <option value="5C.pdf">Clasa a V-a C</option>
+                   <option value="6A.pdf">Clasa a VI-a A</option>
+                   <option value="6B.pdf">Clasa a VI-a B</option>
+                   <option value="6C.pdf">Clasa a VI-a C</option>
+                   <option value="7A.pdf">Clasa a VII-a A</option>
+                   <option value="7B.pdf">Clasa a VII-a B</option>
+                   <option value="7C.pdf">Clasa a VII-a C</option>
+                   <option value="8A.pdf">Clasa a VIII-a A</option>
+                   <option value="8B.pdf">Clasa a VIII-a B</option>
+                   <option value="9A.pdf">Clasa a IX-a A</option>
+                   <option value="n_1.pdf">Grupa de informatică  1</option>
+                   <option value="n_2.pdf">Grupa de informatică  2</option>
+                   <option value="9B.pdf">Clasa a IX-a B</option>
+                   <option value="10A.pdf">Clasa a X-a A</option>
+                   <option value="10B.pdf">Clasa a X-a B</option>
+                   <option value="11A.pdf">Clasa a XI-a A</option>
+                   <option value="11B.pdf">Clasa a XI-a B</option>
+                   <option value="u_i.pdf">Grupa de italiană  i</option>
+                   <option value="12A.pdf">Clasa a XII-a A</option>
+                   <option value="d_1.pdf">Grupa de informatică  1</option>
+                   <option value="d_2.pdf">Grupa de informatică  2</option>
+                   <option value="d_i.pdf">Grupa de italiană  i</option>
+                   <option value="12B.pdf">Clasa a XII-a B</option>
+                   
+                       </select>
+                           
+                           </form>
+                           
+                   <form name="Profesori">
+                        
+                        <select name="Selectează" lang="ro" onchange="MM_jumpMenu('I1',this,0)" class="auto-style3" >
+                         <option value="">Selectează profesorul</option>
+                   <option value="alexandru.pdf">Iustin ALEXANDRU</option>
+                   <option value="anghel.pdf">Ioana ANGHEL</option>
+                   <option value="baltagd.pdf">Dragoş BALTAG</option>
+                   <option value="baltag.pdf">Mirela BALTAG</option>
+                   <option value="balina.pdf">Alina BĂDIŢĂ</option>
+                   <option value="badita.pdf">Dan BĂDIŢĂ</option>
+                   <option value="bizdoc.pdf">Elena-Mirabela BÎZDOC</option>
+                   <option value="bradu.pdf">Ciprian BRADU</option>
+                   <option value="bugiu.pdf">Ana-Maria BUGIU</option>
+                   <option value="caval.pdf">Luciana CAVAL</option>
+                   <option value="ciuculescu.pdf">Ionela-Ştefania CIUCULESCU</option>
+                   <option value="cobzaru.pdf">Cristina COBZARU</option>
+                   <option value="costache.pdf">Iunia COSTACHE</option>
+                   <option value="ferent.pdf">Alexandru FERENŢ</option>
+                   <option value="fodoca.pdf">Maria FODOCA</option>
+                   <option value="frincu.pdf">Marilena FRÎNCU</option>
+                   <option value="gheordunescu.pdf">Ioana GHEORDUNESCU</option>
+                   <option value="ghinescu.pdf">Mariana GHINESCU</option>
+                   <option value="ghiuzan.pdf">Andreea GHIUZAN</option>
+                   <option value="grama.pdf">Mihaela GRAMA</option>
+                   <option value="gudea.pdf">Gabriel GUDEA</option>
+                   <option value="ionescu.pdf">Ilie-Cristian IONESCU</option>
+                   <option value="ispas.pdf">Andreea ISPAS</option>
+                   <option value="itcou.pdf">Laura IŢCOU</option>
+                   <option value="man.pdf">Ana MAN</option>
+                   <option value="manolea.pdf">Carmen MANOLEA</option>
+                   <option value="mariniuc.pdf">Cristina MARINIUC</option>
+                   <option value="manescu.pdf">Ioana MĂNESCU</option>
+                   <option value="melinescu.pdf">Judita MELINESCU</option>
+                   <option value="minciu.pdf">Mihaela-Ilona MINCIU</option>
+                   <option value="motrun.pdf">Luana MOTRUN</option>
+                   <option value="neagoe.pdf">Florin NEAGOE</option>
+                   <option value="neagu.pdf">Lavinia-Filofteia NEAGU</option>
+                   <option value="olariu.pdf">Anita OLARIU</option>
+                   <option value="oros.pdf">Iulia OROŞ</option>
+                   <option value="petrescu.pdf">Alina PETRESCU</option>
+                   <option value="pintenaru.pdf">Ioana PINTENARU</option>
+                   <option value="puscoci.pdf">Andra-Ioana PUŞCOCI</option>
+                   <option value="raileanu.pdf">Mircea-Ion RĂILEANU</option>
+                   <option value="rus.pdf">Paula-Maria RUS</option>
+                   <option value="ruset.pdf">Marinela RUSET</option>
+                   <option value="rusuo.pdf">Oana RUSU</option>
+                   <option value="rusuv.pdf">Vicenţiu RUSU</option>
+                   <option value="scripcaru.pdf">Delia SCRIPCARU</option>
+                   <option value="slobozeanu.pdf">Niculina SLOBOZEANU</option>
+                   <option value="stanciu.pdf">Maria-Irina STANCIU</option>
+                   <option value="tascan.pdf">Claudia TĂŞCAN</option>
+                   <option value="udrescu.pdf">Alina UDRESCU</option>
+                   <option value="zaharia.pdf">Florentina ZAHARIA</option>
+                   
+                   
+                       </select>
+                           
+                           </form>
+                   <form style="justify-content: center;"  name="Sala">
+                        
+                        <select name="Selectează" lang="ro" onchange="MM_jumpMenu('I1',this,0)" class="auto-style3" style="margin-right: 0;">
+                         <option value="">Selectează sala</option>
+                   <option value="4.pdf">4</option>
+                   <option value="5.pdf">5</option>
+                   <option value="14.pdf">14</option>
+                   <option value="15.pdf">15</option>
+                   <option value="18.pdf">18</option>
+                   <option value="19.pdf">19</option>
+                   <option value="20.pdf">20</option>
+                   <option value="21.pdf">21</option>
+                   <option value="22.pdf">22</option>
+                   <option value="102.pdf">102</option>
+                   <option value="103.pdf">103</option>
+                   <option value="108.pdf">108</option>
+                   <option value="109.pdf">109</option>
+                   <option value="110.pdf">110</option>
+                   <option value="111.pdf">111</option>
+                   <option value="113.pdf">113</option>
+                   <option value="114.pdf">114</option>
+                   <option value="115.pdf">115</option>
+                   <option value="116.pdf">116</option>
+                   <option value="117.pdf">117</option>
+                   <option value="202.pdf">202</option>
+                   <option value="203.pdf">203</option>
+                   <option value="208.pdf">208</option>
+                   <option value="209.pdf">209</option>
+                   <option value="210.pdf">210</option>
+                   <option value="211.pdf">211</option>
+                   <option value="213.pdf">213</option>
+                   <option value="214.pdf">214</option>
+                   <option value="215.pdf">215</option>
+                   <option value="216.pdf">216</option>
+                   <option value="217.pdf">217</option>
+                   <option value="400.pdf">400</option>
+                   <option value="410.pdf">410</option>
+                   
+                       </select>
+                           
+                           </form>
+                </div>
+                
+                        
+                            <iframe class="orarAfis " id="I1"  style="text-align:center; width: 80%;">
+                            Your browser does not support inline frames or is currently configured not to display inline frames.
+                            </iframe>
+                            <!-- #EndEditable --></div>
+                        <!-- End Content --></div>
+        
+        </section>
+        <section class="offbody">
+          
+            <div class="col-sm-4">
+              <h5>Liceul Greco-Catolic<br>"Timotei Cipariu"</h5>
+              
+            </div>
+            <div class="col-sm-4">
+        
+                <div class="row-sm-4">
+                    
+                    <div class="coll-sm-4">
+                    <h1 style="font-size: 20px;">CONTACT</h1>
+                    <p1 class="infoB">Strada Bucegi nr.97 <br>Sector 1 Bucureşti 012315</p1>
+                    <p1 class="infoB">secretariat@lgrcat.ro</p1>
+                    <p1 class="infoB">021-667-84-34</p1>
+        
+                    </div>
+        
+                    <div  class="share">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <button  class="btn1">
+                                <svg fill-rule="nonzero" height="30px" width="30px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="instagram"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero"><g transform="scale(8,8)"><path d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z"></path></g></g></svg>
+                                <span class="tooltiptext1">
+                                  <div class="card">
+                                    <img src="images/legaturi.png">
+                                  </div>
+                                  <div href="index.html" class="username">@meoninsta</div>
+                                </span>
+                              </button>
+                        </a>
+                        
+                       
+                        
+                      </div>
+                </div>
+                     
+              </div>
+             <div class="col-sm-4">
+                  <div>
+                    <p class="linksB"> 
+                        <a href="index.html">Acasă |</a> 
+                        <a href="Nou.html"> Nou |</a>
+                        <a href="Legaturi.html"> Legături |</a>
+                        <a href="Orar.html"> Orar |</a> 
+                        <a href="ECDL.html"> ECDL |</a>
+                        <a href="Contact.html"> Contact</a></p>
+                </div>
+               
+                
+            </div>
+            
+         
+        </section>
+        
+        
+    </section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
