@@ -10,7 +10,7 @@ body{
 .header{
     min-height: 70vh;
     width: 100%;
-    background-image: url(IMAGES/Courtyard2.png);
+    background-image: url(IMAGES/noimage.png);
     background-position: center;
     background-size: cover;
     position: relative;
