@@ -90,6 +90,11 @@ ul li{
     
 }
 
+h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
 
 .slidebar{
     display:none;
@@ -472,9 +477,29 @@ input:hover:checked + .slider:before {
 .card-8{
     
     
-    background-image: url(images/ISMB.LGRCAT.png);
+    background-image: url(images/ISMB.png);
     background-position: center;
     background-size: cover;
+   
+
+}
+.card-9{
+    min-width: 350px;
+    min-height: 200px;
+    background: rgb(213, 213, 213);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin:20px;
+
+    font-size:50px;
+    border-radius:50px;
+}
+.card-9{
+    
+    
+    background-image: url(images/Minister.png);
+    background-position: center;
+    background-size: cover;
+   
 
 }
 .card-1 { transition: all .2s ease-in-out; }
@@ -493,6 +518,9 @@ input:hover:checked + .slider:before {
 .card-7:hover { transform: scale(1.1); background-color: #9cd3ff; box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 20px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
 .card-8 { transition: all .2s ease-in-out; }
 .card-8:hover { transform: scale(1.1); background-color: #9cd3ff; box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 20px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+.card-9 { transition: all .2s ease-in-out; }
+.card-9:hover { transform: scale(1.1); background-color: #9cd3ff; box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 20px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+
 .dark-mode .card-1{
     background-color: #474747;
     
@@ -531,6 +559,10 @@ input:hover:checked + .slider:before {
     background-color: #474747;
     transition: .5s;
 }
+.dark-mode .card-9{
+    background-color: #474747;
+    transition: .5s;
+}
 
 .dark-mode .card-1:hover{
     background-color: #7ef6ff;
@@ -564,7 +596,10 @@ input:hover:checked + .slider:before {
     background-color: #7ef6ff;
     box-shadow: 0px 0px 10px 1px #56ffff, 0px 0px 20px 5px #9df1ff;
 }
-
+.dark-mode .card-9:hover{
+    background-color: #7ef6ff;
+    box-shadow: 0px 0px 10px 1px #56ffff, 0px 0px 20px 5px #9df1ff;
+}
 
 
 .container{
