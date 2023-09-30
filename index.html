@@ -1,0 +1,108 @@
+<!------------------------------------------------------------------------------------------------------------------------------------------<
+    Gheorghe Călin (P, L, T, I), Toni Nassta(P), Dumitru Iulian(L), Pal Theodor Matei(I, L),  Căciularu Ștefan Arthur(P, T),  
+    ------------------------------------------------------------------------------------------------------------------------------------
+                                         P=programmer; L=image editor; I=image provider; T=tester, 
+<-------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+
+<html>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+<head>
+
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
+    <title>LGRCAT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+<section class="header" >
+    
+    <!--Nav Bar Pc--->
+    <nav class="pc">
+        <a href="index.html"><img src="images/logo.png" class="logo"></a>
+    
+        <ul class="nav-items">
+
+            <li><a HREF="index.html">ACASĂ</a></li>
+            <li><a href="Nou.html">ANUNȚURI</a></li>
+            <li><a href="Legaturi.html">LEGĂTURI</a></li>
+            <li><a href="Orar.html">ORAR</a></li>
+            <li><a HREF="ECDL.html">ECDL</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+        
+        <label class="switch">
+            <input type="checkbox" id="switch" >
+            <span class="slider"></span>
+        </label>
+        <a class="toni"></a>
+    </nav>
+
+    <!--Nav Bar Mobile--->
+    <nav class="phone">
+        <div class="logo-phone">
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+        </div>
+        <div id="slidebar">
+            <div class="toggle-btn" onclick="show()">
+                <input type="checkbox" id="checkbox" onclick="show()">
+                <label for="checkbox" class="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+            </div>
+            <ul class="mobile-menu">
+                <li class="mobile-items"><a HREF="index.html">ACASĂ</a></li>
+                <li class="mobile-items"><a HREF="Nou.html">ANUNȚURI</a></li>
+                <li class="mobile-items"><a href="Legaturi.html">LEGĂTURI</a></li>
+                <li class="mobile-items"><a HREF="Orar.html">ORAR</a></li>
+                <li class="mobile-items"><a HREF="ECDL.html">ECDL</a></li>
+                <li class="mobile-items"><a HREF="Contact.html">CONTACT</a></li>
+                
+            </ul>
+
+        </div>
+    </nav>
+
+    
+    <div class="txtBox">
+
+            <h1>Liceul Greco-Catolic "Timotei Cipariu"</h1>
+            <h2 class="sectorH">Sector 1, București</h2>
+            
+
+         <a href="intra.html" class="a-button">INTRĂ</a>
+
+    </div>
+
+
+</section>
+<script>
+    var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+
+</script>
+<!---JavaScript Mobile Menu--->
+<script src="script.js"></script>
+</body>
+</html>
